@@ -10,6 +10,13 @@ import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
 import projImg9 from "../assets/img/project-img9.png";
 import projImg10 from "../assets/img/project-img10.png";
+import projImg11 from "../assets/img/project-img11.png";
+import projImg12 from "../assets/img/project-img12.png";
+import projImg13 from "../assets/img/project-img13.png";
+import projImg14 from "../assets/img/project-img14.jpg";
+import projImg15 from "../assets/img/project-img15.jpg";
+import projImg16 from "../assets/img/project-img16.jpg";
+import projImg17 from "../assets/img/project-img17.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import { ProjectCard } from "./ProjectCard";
 import "animate.css";
@@ -53,6 +60,18 @@ export const Projects = () => {
       description:
         "Advanced YouTube clone using React.js, React Router, React Player, Axios, and MUI 'Tutorial'",
       imgUrl: projImg10,
+    },
+    {
+      title: "Shopsy",
+      description:
+        "simple ecommerce store using React.js, Tailwind, react icons,and aos ",
+      imgUrl: projImg11,
+    },
+    {
+      title: "Space Website",
+      description:
+        "Space Website using React.js, Tailwind, react icons,and aos ",
+      imgUrl: projImg12,
     },
   ];
   const itiProjects = [
