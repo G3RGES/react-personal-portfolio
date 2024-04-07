@@ -137,28 +137,35 @@ export const Contact = () => {
                         <p>Georgios.Nashaat@gmail.com</p>
                       </div>
                     </div>
+                    <div class="card">
+                      <div class="icon">
+                        <i class="fa-brands fa-square-github"></i>
+                      </div>
+                      <div class="info">
+                        <h1
+                          style={{
+                            textAlign: "center",
+                            marginTop: "10px",
+                          }}
+                        >
+                          <a
+                            style={{
+                              color: "black",
+                              textDecoration: "none",
+                              backgroundColor: "white",
+                              padding: "5px",
+                              borderRadius: "7px",
+                            }}
+                            href="https://github.com/G3RGES"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            GitHub
+                          </a>
+                        </h1>
+                      </div>
+                    </div>
                   </div>
-                  <h1
-                    style={{
-                      textAlign: "center",
-                      marginTop: "10px",
-                    }}
-                  >
-                    <a
-                      style={{
-                        color: "black",
-                        textDecoration: "none",
-                        backgroundColor: "white",
-                        padding: "5px",
-                        borderRadius: "7px",
-                      }}
-                      href="https://github.com/G3RGES"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      GitHub
-                    </a>
-                  </h1>
                 </section>
               </div>
             </div>
