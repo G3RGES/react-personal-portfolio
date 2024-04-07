@@ -138,6 +138,27 @@ export const Contact = () => {
                       </div>
                     </div>
                   </div>
+                  <h1
+                    style={{
+                      textAlign: "center",
+                      marginTop: "10px",
+                    }}
+                  >
+                    <a
+                      style={{
+                        color: "black",
+                        textDecoration: "none",
+                        backgroundColor: "white",
+                        padding: "5px",
+                        borderRadius: "7px",
+                      }}
+                      href="https://github.com/G3RGES"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </h1>
                 </section>
               </div>
             </div>
