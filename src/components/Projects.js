@@ -74,7 +74,7 @@ export const Projects = () => {
       imgUrl: projImg12,
     },
   ];
-  const itiProjects = [
+  const projects2 = [
     {
       title: "Shezlong",
       description: "final ITI project usng WordPress 'Team Leader'",
@@ -89,6 +89,33 @@ export const Projects = () => {
       title: "Social Media Website",
       description: "responsive Bootstrap task for ITI",
       imgUrl: projImg3,
+    },
+  ];
+  const projects3 = [
+    {
+      title: "Social Media Website",
+      description: "responsive Bootstrap task for ITI",
+      imgUrl: projImg13,
+    },
+    {
+      title: "Social Media Website",
+      description: "responsive Bootstrap task for ITI",
+      imgUrl: projImg14,
+    },
+    {
+      title: "Social Media Website",
+      description: "responsive Bootstrap task for ITI",
+      imgUrl: projImg15,
+    },
+    {
+      title: "Social Media Website",
+      description: "responsive Bootstrap task for ITI",
+      imgUrl: projImg16,
+    },
+    {
+      title: "Social Media Website",
+      description: "responsive Bootstrap task for ITI",
+      imgUrl: projImg17,
     },
   ];
   return (
@@ -139,7 +166,7 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <Row>
-                          {itiProjects.map((project, index) => {
+                          {projects2.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
