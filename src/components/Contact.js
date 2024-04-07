@@ -113,35 +113,35 @@ export const Contact = () => {
               </Row>
             </form> */}
 
-            <div class="contact" id="connect">
-              <div class="overlay"></div>
-              <div class="container">
+            <div className="contact" id="connect">
+              <div className="overlay"></div>
+              <div className="container">
                 <h2>Contact me</h2>
-                <section class="cards" id="contact">
-                  <div class="content">
-                    <div class="card">
-                      <div class="icon">
-                        <i class="fa-solid fa-phone"></i>
+                <section className="cards" id="contact">
+                  <div className="content">
+                    <div className="card">
+                      <div className="icon">
+                        <i className="fa-solid fa-phone"></i>
                       </div>
-                      <div class="info">
+                      <div className="info">
                         <h3>Phone</h3>
                         <p>+201203346582</p>
                       </div>
                     </div>
-                    <div class="card">
-                      <div class="icon">
-                        <i class="fa-solid fa-envelope"></i>
+                    <div className="card">
+                      <div className="icon">
+                        <i className="fa-solid fa-envelope"></i>
                       </div>
-                      <div class="info">
+                      <div className="info">
                         <h3>E-Mail</h3>
                         <p>Georgios.Nashaat@gmail.com</p>
                       </div>
                     </div>
-                    <div class="card">
-                      <div class="icon">
-                        <i class="fa-brands fa-square-github"></i>
+                    <div className="card">
+                      <div className="icon">
+                        <i className="fa-brands fa-square-github"></i>
                       </div>
-                      <div class="info">
+                      <div className="info">
                         <h1
                           style={{
                             textAlign: "center",
