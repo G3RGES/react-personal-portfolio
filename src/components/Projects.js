@@ -60,18 +60,21 @@ export const Projects = () => {
       description:
         "Advanced YouTube clone using React.js, React Router, React Player, Axios, and MUI 'Tutorial'",
       imgUrl: projImg10,
+      link: "https://github.com/G3RGES/youtube_clone",
     },
     {
       title: "Shopsy",
       description:
         "simple ecommerce store using React.js, Tailwind, react icons,and aos ",
       imgUrl: projImg11,
+      link: "https://github.com/G3RGES/eccomerce-website",
     },
     {
       title: "Space Website",
       description:
         "Space Website using React.js, Tailwind, react icons,and aos ",
       imgUrl: projImg12,
+      link: "https://github.com/G3RGES/space_website",
     },
   ];
   const projects2 = [
@@ -93,29 +96,38 @@ export const Projects = () => {
   ];
   const projects3 = [
     {
-      title: "Social Media Website",
-      description: "responsive Bootstrap task for ITI",
+      title: "META website",
+      description:
+        "simple META/VR website using React.js, Tailwind, react icons,and aos ",
       imgUrl: projImg13,
+      link: "https://github.com/G3RGES/metaverse-web",
     },
     {
-      title: "Social Media Website",
-      description: "responsive Bootstrap task for ITI",
+      title: "BERRIES",
+      description: "simple strawberry banner using React.js,and Tailwind",
       imgUrl: projImg14,
+      link: "https://github.com/G3RGES/strawberry-hero",
     },
     {
-      title: "Social Media Website",
-      description: "responsive Bootstrap task for ITI",
+      title: "Doraemon",
+      description:
+        "simple Doraemon website using React.js, Tailwind, react icons,and aos",
       imgUrl: projImg15,
+      link: "https://github.com/G3RGES/doraemon",
     },
     {
-      title: "Social Media Website",
-      description: "responsive Bootstrap task for ITI",
+      title: "Games Website",
+      description:
+        "simple Games website using React.js, Tailwind, react icons,and aos",
       imgUrl: projImg16,
+      link: "https://github.com/G3RGES/gaming-website",
     },
     {
-      title: "Social Media Website",
-      description: "responsive Bootstrap task for ITI",
+      title: "FOODIE Website",
+      description:
+        "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
       imgUrl: projImg17,
+      link: "https://github.com/G3RGES/tasty-react",
     },
   ];
   return (
@@ -131,7 +143,7 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>Projects I've done recently</p>
+                  {/* <p>Projects I've done recently</p> */}
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
@@ -159,9 +171,6 @@ export const Projects = () => {
                           {projects.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
-                          <h2>
-                            More Projects are available on my GitHub Profile.
-                          </h2>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
@@ -172,8 +181,23 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>Later Projects Solo or Team will be added here</p>
+                        <Row>
+                          {projects3.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
+                      <h2>
+                        More Projects are available on my{" "}
+                        <a
+                          href="https://github.com/G3RGES"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          GitHub
+                        </a>{" "}
+                        Profile.
+                      </h2>
                     </Tab.Content>
                   </Tab.Container>
                 </div>
