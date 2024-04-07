@@ -132,6 +132,9 @@ export const Projects = () => {
                           {projects.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
+                          <h2>
+                            More Projects are available on my GitHub Profile.
+                          </h2>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
