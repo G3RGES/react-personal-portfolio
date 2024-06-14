@@ -68,7 +68,7 @@ export const Banner = () => {
                     HI <br /> I'm Gerges Nashaat <br />{" "}
                     <span className="wrap">{text}</span>
                   </h1>
-                  <p>Studying to be the next big thing</p>
+                  <p>Aiming to be the next big thing</p>
                   <button
                     onClick={() => {
                       // console.log("Connect");
