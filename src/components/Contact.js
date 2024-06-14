@@ -137,6 +137,7 @@ export const Contact = () => {
                         <p>Georgios.Nashaat@gmail.com</p>
                       </div>
                     </div>
+
                     <div className="card">
                       <div className="icon">
                         <i className="fa-brands fa-square-github"></i>
@@ -161,6 +162,35 @@ export const Contact = () => {
                             rel="noreferrer"
                           >
                             GitHub
+                          </a>
+                        </h1>
+                      </div>
+                    </div>
+
+                    <div className="card">
+                      <div className="icon">
+                        <i class="fa-brands fa-behance"></i>
+                      </div>
+                      <div className="info">
+                        <h1
+                          style={{
+                            textAlign: "center",
+                            marginTop: "10px",
+                          }}
+                        >
+                          <a
+                            style={{
+                              color: "black",
+                              textDecoration: "none",
+                              backgroundColor: "white",
+                              padding: "5px",
+                              borderRadius: "7px",
+                            }}
+                            href="https://www.behance.net/gergesnashaat1"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Behance
                           </a>
                         </h1>
                       </div>
