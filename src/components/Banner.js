@@ -46,10 +46,11 @@ export const Banner = () => {
     }
   };
   const goToConnectSection = () => {
-    // Get the element with the id connect
-    const connectSection = document.getElementById("connect");
-    // Scroll to the connect section
-    connectSection.scrollIntoView({ behavior: "smooth" });
+   const fileId = "1QNKcE3IFtMbjqRCV75UNqt_eO3OHC0xM";
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    const viewUrl =
+      "https://drive.google.com/file/d/1QNKcE3IFtMbjqRCV75UNqt_eO3OHC0xM/view?usp=sharing";
+    window.open(downloadUrl, "_blank");
   };
   return (
     <section className="banner" id="home">
