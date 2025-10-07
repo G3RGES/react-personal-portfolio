@@ -45,7 +45,7 @@ export const Banner = () => {
       setDelta(500);
     }
   };
-  const goToConnectSection = () => {
+  const downloadCV = () => {
    const fileId = "1QNKcE3IFtMbjqRCV75UNqt_eO3OHC0xM";
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
     const viewUrl =
@@ -73,10 +73,10 @@ export const Banner = () => {
                   <button
                     onClick={() => {
                       // console.log("Connect");
-                      goToConnectSection();
+                      downloadCV();
                     }}
                   >
-                    Let's Connect
+                    Download Résumé
                     <ArrowRightCircle size={25} />
                   </button>
                 </div>
