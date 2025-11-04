@@ -53,12 +53,20 @@ export const Banner = () => {
   //   window.open(downloadUrl, "_blank");
   // };
 
+//   const downloadCV = () => {
+//   const fileId = "1za2yEdr_qmeWjhfg3tZgiDR2LhvMk6-O";
+//   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+//   const viewUrl = `https://drive.google.com/file/d/${fileId}/view?usp=sharing`;
+//   window.open(downloadUrl, "_blank");
+// };
+
   const downloadCV = () => {
-  const fileId = "1za2yEdr_qmeWjhfg3tZgiDR2LhvMk6-O";
+  const fileId = "1rsModad2hWB_L1EglSVigr3js5STyfSc";
   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
   const viewUrl = `https://drive.google.com/file/d/${fileId}/view?usp=sharing`;
   window.open(downloadUrl, "_blank");
 };
+
 
   return (
     <section className="banner" id="home">
