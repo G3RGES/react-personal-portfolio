@@ -45,13 +45,21 @@ export const Banner = () => {
       setDelta(500);
     }
   };
+  // const downloadCV = () => {
+  //  const fileId = "1QNKcE3IFtMbjqRCV75UNqt_eO3OHC0xM";
+  //   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+  //   const viewUrl =
+  //     "https://drive.google.com/file/d/1QNKcE3IFtMbjqRCV75UNqt_eO3OHC0xM/view?usp=sharing";
+  //   window.open(downloadUrl, "_blank");
+  // };
+
   const downloadCV = () => {
-   const fileId = "1QNKcE3IFtMbjqRCV75UNqt_eO3OHC0xM";
-    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-    const viewUrl =
-      "https://drive.google.com/file/d/1QNKcE3IFtMbjqRCV75UNqt_eO3OHC0xM/view?usp=sharing";
-    window.open(downloadUrl, "_blank");
-  };
+  const fileId = "1za2yEdr_qmeWjhfg3tZgiDR2LhvMk6-O";
+  const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+  const viewUrl = `https://drive.google.com/file/d/${fileId}/view?usp=sharing`;
+  window.open(downloadUrl, "_blank");
+};
+
   return (
     <section className="banner" id="home">
       <Container>
