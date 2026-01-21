@@ -33,7 +33,7 @@ export const NavBar = () => {
       <Container>
         <Navbar.Brand href="#home">
           {/* <img src={logo} alt="logo" /> */}
-          <h2
+          {/* <h2
             style={{
               color: "white",
               alignSelf: "center",
@@ -41,7 +41,7 @@ export const NavBar = () => {
             }}
           >
             GERGES
-          </h2>
+          </h2> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
