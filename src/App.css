@@ -385,7 +385,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 50%;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -430,50 +430,213 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 22px;
   overflow: hidden;
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
+
+.proj-imgbx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Dark gradient overlay */
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  opacity: 0.85;
   position: absolute;
-  width: 100%;
-  height: 0;
-  transition: 0.4s ease-in-out;
-}
-.proj-imgbx:hover::before {
-  height: 100%;
-}
-.proj-txtx {
-  position: absolute;
-  text-align: center;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85));
   opacity: 0;
-  width: 100%;
+  transition: opacity 0.4s ease;
+  z-index: 1;
 }
-.proj-imgbx:hover .proj-txtx {
-  top: 50%;
+
+.proj-imgbx:hover::before {
   opacity: 1;
 }
-.proj-txtx h4 {
-  font-size: 30px;
+
+/* Overlay content */
+.proj-overlay {
+  position: absolute;
+  inset: 0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+/* Stagger animation */
+.proj-overlay h4,
+.proj-overlay p,
+.tech-stack,
+.project-links {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+}
+
+.proj-imgbx:hover .proj-overlay h4 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.proj-imgbx:hover .proj-overlay p {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.1s;
+}
+
+.proj-imgbx:hover .tech-stack {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.2s;
+}
+
+.proj-imgbx:hover .project-links {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.3s;
+}
+
+/* Title */
+.proj-overlay h4 {
+  font-size: 22px;
   font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
+  margin-bottom: 10px;
 }
-.proj-txtx span {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 0.8px;
+
+/* Description */
+.proj-overlay p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ddd;
+  margin-bottom: 14px;
 }
+
+/* Tech stack badges */
+.tech-stack {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.tech-stack span {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* Buttons */
+.project-links {
+  display: flex;
+  gap: 12px;
+}
+
+/* Base button */
+.project-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 18px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* GitHub */
+.project-btn.github {
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.project-btn.github:hover {
+  background: #000;
+}
+
+/* Demo */
+.project-btn.demo {
+  background: linear-gradient(135deg, #7f00ff, #3f5efb);
+}
+
+.project-btn.demo:hover {
+  box-shadow: 0 0 15px rgba(155, 92, 255, 0.8);
+}
+
+/* Disabled demo */
+.project-btn.demo.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.proj-imgbx:hover .proj-txtx {
+  opacity: 1;
+}
+
+/* Description – MORE DETAILS VISUALLY */
+.proj-txtx p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #e0e0e0;
+  margin-bottom: 18px;
+  max-width: 90%;
+}
+
+/* Buttons wrapper */
+.project-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Base button */
+.project-btn {
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* GitHub button */
+.project-btn.github {
+  background: rgba(0, 0, 0, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.project-btn.github:hover {
+  background: #000;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+/* Demo button */
+.project-btn.demo {
+  background: linear-gradient(135deg, #7f00ff, #3f5efb);
+}
+
+.project-btn.demo:hover {
+  background: linear-gradient(135deg, #9b5cff, #5f7cff);
+  box-shadow: 0 0 15px rgba(155, 92, 255, 0.8);
+}
+
 .background-image-right {
   top: 20%;
   position: absolute;
