@@ -17,6 +17,12 @@ import projImg14 from "../assets/img/project-img14.jpg";
 import projImg15 from "../assets/img/project-img15.jpg";
 import projImg16 from "../assets/img/project-img16.jpg";
 import projImg17 from "../assets/img/project-img17.jpg";
+import projImg18 from "../assets/img/Fany-3andak.png";
+import projImg19 from "../assets/img/eat-a-split.png";
+import projImg20 from "../assets/img/usepopcorn.png";
+import projImg21 from "../assets/img/travel-list.png";
+import projImg22 from "../assets/img/G3RGES_The-Movie-App.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import { ProjectCard } from "./ProjectCard";
 import "animate.css";
@@ -61,7 +67,7 @@ export const Projects = () => {
         "Advanced YouTube clone using React.js, React Router, React Player, Axios, and MUI 'Tutorial'",
       imgUrl: projImg10,
       link: "https://github.com/G3RGES/youtube_clone",
-      demo: "",
+      demo: "https://youtube-clone-g3rges.netlify.app/",
     },
     {
       title: "Shopsy",
@@ -69,7 +75,7 @@ export const Projects = () => {
         "simple ecommerce store using React.js, Tailwind, react icons,and aos ",
       imgUrl: projImg11,
       link: "https://github.com/G3RGES/eccomerce-website",
-      demo: "",
+      demo: "https://shopsy-delta.vercel.app/",
     },
     {
       title: "Space Website",
@@ -77,7 +83,7 @@ export const Projects = () => {
         "Space Website using React.js, Tailwind, react icons,and aos ",
       imgUrl: projImg12,
       link: "https://github.com/G3RGES/space_website",
-      demo: "",
+      demo: "https://space-website-g3rges.vercel.app/",
     },
   ];
   const projects2 = [
@@ -104,14 +110,14 @@ export const Projects = () => {
         "simple META/VR website using React.js, Tailwind, react icons,and aos ",
       imgUrl: projImg13,
       link: "https://github.com/G3RGES/metaverse-web",
-      demo: "",
+      demo: "https://metaverse-web-pi.vercel.app/",
     },
     {
       title: "BERRIES",
       description: "simple strawberry banner using React.js,and Tailwind",
       imgUrl: projImg14,
       link: "https://github.com/G3RGES/strawberry-hero",
-      demo: "",
+      demo: "https://strawberries.vercel.app/",
     },
     {
       title: "Doraemon",
@@ -119,7 +125,7 @@ export const Projects = () => {
         "simple Doraemon website using React.js, Tailwind, react icons,and aos",
       imgUrl: projImg15,
       link: "https://github.com/G3RGES/doraemon",
-      demo: "",
+      demo: "https://doraemon-gilt.vercel.app/",
     },
     {
       title: "Games Website",
@@ -127,7 +133,7 @@ export const Projects = () => {
         "simple Games website using React.js, Tailwind, react icons,and aos",
       imgUrl: projImg16,
       link: "https://github.com/G3RGES/gaming-website",
-      demo: "",
+      demo: "https://gaming-website-omega.vercel.app/",
     },
     {
       title: "FOODIE Website",
@@ -135,7 +141,47 @@ export const Projects = () => {
         "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
       imgUrl: projImg17,
       link: "https://github.com/G3RGES/tasty-react",
-      demo: "",
+      demo: "https://tasty-react-beta.vercel.app/",
+    },
+    {
+      title: "Fany M3ak",
+      description:
+        "Graduation project built with React, emphasizing modular architecture and modern UI/UX practices.",
+      imgUrl: projImg18,
+      link: "https://github.com/nihalsabri/GP-ITI-App",
+      demo: "https://gp-iti-website.vercel.app/",
+    },
+    {
+      title: "FOODIE Website",
+      description:
+        "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
+      imgUrl: projImg19,
+      link: "https://github.com/G3RGES/eat-n-split",
+      demo: "https://eat-n-split-orcin-tau.vercel.app/",
+    },
+    {
+      title: "FOODIE Website",
+      description:
+        "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
+      imgUrl: projImg20,
+      link: "https://github.com/G3RGES/usepopcorn",
+      demo: "https://usepopcorn-phi-dusky.vercel.app/",
+    },
+    {
+      title: "FOODIE Website",
+      description:
+        "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
+      imgUrl: projImg21,
+      link: "https://github.com/G3RGES/travel-list",
+      demo: "https://travel-list-tau-eight.vercel.app/",
+    },
+    {
+      title: "The Movie App",
+      description:
+        "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
+      imgUrl: projImg22,
+      link: "https://github.com/G3RGES/The-Movie-App",
+      demo: "https://the-movie-app-phi.vercel.app/",
     },
   ];
   return (
@@ -161,11 +207,11 @@ export const Projects = () => {
                       <Nav.Item>
                         <Nav.Link eventKey="first">Tab 1</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
+                      {/* <Nav.Item>
                         <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                      </Nav.Item>
+                      </Nav.Item> */}
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">Tab 2</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -181,13 +227,13 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="second">
+                      {/* <Tab.Pane eventKey="second">
                         <Row>
                           {projects2.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
-                      </Tab.Pane>
+                      </Tab.Pane> */}
                       <Tab.Pane eventKey="third">
                         <Row>
                           {projects3.map((project, index) => {
