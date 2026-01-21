@@ -483,143 +483,108 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
-.contact {
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  padding: 60px 0 200px 0;
-}
-/*
-.contact img {
-  width: 92%;
-}
-.contact h2 {
-  font-size: 45px;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
-.contact form input,
-.contact form textarea {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
-  color: #fff;
-  margin: 0 0 8px 0;
-  padding: 18px 26px;
-  font-weight: 500;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  transition: 0.3s ease-in-out;
-}
-.contact form input:focus,
-.contact form textarea:focus {
-  background: rgba(255, 255, 255, 1);
-  color: #121212;
-}
-.contact form input::placeholder,
-.contact form textarea::placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
-}
-.contact form input:focus::placeholder,
-.contact form textarea:focus::placeholder {
-  color: #121212;
-  opacity: 0.8;
-}
-.contact form button {
-  font-weight: 700;
-  color: #000;
-  background-color: #fff;
-  padding: 14px 48px;
-  font-size: 18px;
-  margin-top: 25px;
-  border-radius: 0;
-  position: relative;
-  transition: 0.3s ease-in-out;
-}
-.contact form button span {
-  z-index: 1;
-  position: relative;
-}
-.contact form button:hover {
-  color: #fff;
-}
-.contact form button::before {
-  content: "";
-  background: #121212;
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  transition: 0.3s ease-in-out;
-}
-.contact form button:hover::before {
-  width: 100%;
-} */
 /* START CONTACT */
+/************ Contact Css (THEME MATCHED) ************/
 .contact {
-  min-height: 600px;
-  /* background-image: url("assets/img/Sohag.png"); */
-  background-size: cover;
-  padding-top: 80px;
-  padding-bottom: 80px;
   position: relative;
+  padding: 100px 0;
+  background: linear-gradient(135deg, #2b1055, #1a1a2e);
+  overflow: hidden;
 }
+
+/* Soft glowing overlay */
 .contact .overlay {
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
+  inset: 0;
+  background: radial-gradient(
+    circle at top,
+    rgba(138, 43, 226, 0.25),
+    transparent 70%
+  );
+  z-index: 0;
 }
+
+/* Content above overlay */
 .contact .container {
   position: relative;
   z-index: 2;
 }
+
 .contact h2 {
-  font-weight: bold;
-  color: #121212;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 700;
   text-align: center;
-  margin: 0 0 60px;
+  margin-bottom: 70px;
+  color: #ffffff;
+  letter-spacing: 1px;
 }
 
-.content {
+/* Cards wrapper */
+.contact .content {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
-.card {
-  width: 21.25em;
-  box-shadow: 0 5px 25px rgba(1, 1, 1, 20%);
+/* Card */
+.contact .card {
+  width: 260px;
+  padding: 30px 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+  transition: all 0.35s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.contact .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(138, 43, 226, 0.6);
+}
+
+/* Icons */
+.contact .icon {
+  margin-bottom: 15px;
+}
+
+.contact .icon i {
+  font-size: 42px;
+  color: #9b5cff;
+}
+
+/* Info text */
+.contact .info h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.contact .info p {
+  font-size: 15px;
+  color: #d0d0d0;
+}
+
+/* Links (GitHub / Behance) */
+.contact .info a {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 18px;
   border-radius: 10px;
-  padding: 25px;
-  margin: 15px;
-  transition: 0.5s;
-  border: 1px solid #ccc;
-  background-color: rgba(218, 218, 218, 0.19);
+  background: linear-gradient(135deg, #7f00ff, #3f5efb);
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
-.card:hover {
-  transform: scale(1.1);
+.contact .info a:hover {
+  background: linear-gradient(135deg, #9b5cff, #5f7cff);
+  box-shadow: 0 0 15px rgba(155, 92, 255, 0.8);
 }
 
-.icon {
-  color: #034694;
-  font-size: 8em;
-  text-align: center;
-}
-
-.info {
-  text-align: center;
-  font-weight: bold;
-}
 /* END CONTACT */
 
 /************ Footer Css ************/
