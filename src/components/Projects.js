@@ -61,6 +61,7 @@ export const Projects = () => {
         "Advanced YouTube clone using React.js, React Router, React Player, Axios, and MUI 'Tutorial'",
       imgUrl: projImg10,
       link: "https://github.com/G3RGES/youtube_clone",
+      demo: "",
     },
     {
       title: "Shopsy",
@@ -68,6 +69,7 @@ export const Projects = () => {
         "simple ecommerce store using React.js, Tailwind, react icons,and aos ",
       imgUrl: projImg11,
       link: "https://github.com/G3RGES/eccomerce-website",
+      demo: "",
     },
     {
       title: "Space Website",
@@ -75,6 +77,7 @@ export const Projects = () => {
         "Space Website using React.js, Tailwind, react icons,and aos ",
       imgUrl: projImg12,
       link: "https://github.com/G3RGES/space_website",
+      demo: "",
     },
   ];
   const projects2 = [
@@ -101,12 +104,14 @@ export const Projects = () => {
         "simple META/VR website using React.js, Tailwind, react icons,and aos ",
       imgUrl: projImg13,
       link: "https://github.com/G3RGES/metaverse-web",
+      demo: "",
     },
     {
       title: "BERRIES",
       description: "simple strawberry banner using React.js,and Tailwind",
       imgUrl: projImg14,
       link: "https://github.com/G3RGES/strawberry-hero",
+      demo: "",
     },
     {
       title: "Doraemon",
@@ -114,6 +119,7 @@ export const Projects = () => {
         "simple Doraemon website using React.js, Tailwind, react icons,and aos",
       imgUrl: projImg15,
       link: "https://github.com/G3RGES/doraemon",
+      demo: "",
     },
     {
       title: "Games Website",
@@ -121,6 +127,7 @@ export const Projects = () => {
         "simple Games website using React.js, Tailwind, react icons,and aos",
       imgUrl: projImg16,
       link: "https://github.com/G3RGES/gaming-website",
+      demo: "",
     },
     {
       title: "FOODIE Website",
@@ -128,6 +135,7 @@ export const Projects = () => {
         "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
       imgUrl: projImg17,
       link: "https://github.com/G3RGES/tasty-react",
+      demo: "",
     },
   ];
   return (
