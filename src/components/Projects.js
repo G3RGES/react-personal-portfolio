@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
 import projImg1 from "../assets/img/project-img1.png";
