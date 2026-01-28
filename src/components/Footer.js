@@ -27,7 +27,7 @@ export const Footer = () => {
               <a href="https://www.linkedin.com/in/gergesnashaat/">
                 <img src={navIcon1} alt="linkedin" />
               </a>
-              <a href="https://www.facebook.com/gerges.nashaat.75">
+              <a href="https://www.facebook.com/gergesnashaat95">
                 <img src={navIcon2} alt="Facebook" />
               </a>
               <a href="https://www.instagram.com/gergesnashaat/">
