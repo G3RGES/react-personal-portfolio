@@ -68,11 +68,18 @@ export const Banner = () => {
   //   window.open(downloadUrl, "_blank");
   // };
 
+  // const downloadCV = () => {
+  //   const fileId = "1Fjonq3pZTbCZkDMsH0v7WTZpcdpDpjdO";
+  //   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+  //   window.open(downloadUrl, "_blank");
+  // };
+
   const downloadCV = () => {
-    const fileId = "1Fjonq3pZTbCZkDMsH0v7WTZpcdpDpjdO";
-    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-    window.open(downloadUrl, "_blank");
-  };
+  const fileId = "1e2kxXEm3McKrrWy39J13R5FevYklg6Vb";
+  const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+  window.open(downloadUrl, "_blank");
+};
+
 
   return (
     <section className="banner" id="home">
