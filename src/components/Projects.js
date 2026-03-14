@@ -153,17 +153,17 @@ export const Projects = () => {
       demo: "https://gp-iti-website.vercel.app/",
     },
     {
-      title: "FOODIE Website",
+      title: "eat-n-split",
       description:
-        "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
+        "A React app for splitting bills with friends and tracking shared expenses, making it easy to see who owes whom.",
       imgUrl: projImg19,
       link: "https://github.com/G3RGES/eat-n-split",
       demo: "https://eat-n-split-orcin-tau.vercel.app/",
     },
     {
-      title: "FOODIE Website",
+      title: "usePopcorn",
       description:
-        "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
+        "A React movie app that lets users search movies, view details, rate them, and manage a personal watched list using the OMDb API.",
       imgUrl: projImg20,
       link: "https://github.com/G3RGES/usepopcorn",
       demo: "https://usepopcorn-phi-dusky.vercel.app/",
