@@ -108,14 +108,14 @@ export const Projects = () => {
     {
       title: "META website",
       description:
-        "simple META/VR website using React.js, Tailwind, react icons,and aos ",
+        "A modern metaverse-themed landing page demonstrating advanced layouts, animations, and immersive UI design concepts.",
       imgUrl: projImg13,
       link: "https://github.com/G3RGES/metaverse-web",
       demo: "https://metaverse-web-pi.vercel.app/",
     },
     {
       title: "BERRIES",
-      description: "simple strawberry banner using React.js,and Tailwind",
+      description: "A visually appealing landing page showcasing strawberries with smooth animations, responsive layout, and modern UI design.",
       imgUrl: projImg14,
       link: "https://github.com/G3RGES/strawberry-hero",
       demo: "https://strawberries.vercel.app/",
@@ -123,7 +123,7 @@ export const Projects = () => {
     {
       title: "Doraemon",
       description:
-        "simple Doraemon website using React.js, Tailwind, react icons,and aos",
+        "A fun interactive webpage inspired by Doraemon, featuring animated visuals and a playful UI built with modern frontend technologies.",
       imgUrl: projImg15,
       link: "https://github.com/G3RGES/doraemon",
       demo: "https://doraemon-gilt.vercel.app/",
@@ -131,7 +131,7 @@ export const Projects = () => {
     {
       title: "Games Website",
       description:
-        "simple Games website using React.js, Tailwind, react icons,and aos",
+        "A modern gaming landing page with dynamic sections, smooth animations, and a responsive layout designed to showcase gaming content",
       imgUrl: projImg16,
       link: "https://github.com/G3RGES/gaming-website",
       demo: "https://gaming-website-omega.vercel.app/",
@@ -139,7 +139,7 @@ export const Projects = () => {
     {
       title: "FOODIE Website",
       description:
-        "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
+        "A React-based restaurant website featuring a modern UI, responsive design, and organized sections for menu, services, and contact information.",
       imgUrl: projImg17,
       link: "https://github.com/G3RGES/tasty-react",
       demo: "https://tasty-react-beta.vercel.app/",
@@ -169,9 +169,9 @@ export const Projects = () => {
       demo: "https://usepopcorn-phi-dusky.vercel.app/",
     },
     {
-      title: "FOODIE Website",
+      title: "Travel List",
       description:
-        "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
+        "A React travel checklist app that allows users to add, manage, and track items they need to pack for their trips.",
       imgUrl: projImg21,
       link: "https://github.com/G3RGES/travel-list",
       demo: "https://travel-list-tau-eight.vercel.app/",
@@ -179,7 +179,7 @@ export const Projects = () => {
     {
       title: "The Movie App",
       description:
-        "simple Restaurant Website using React.js, Tailwind, react icons,and aos",
+        "A React movie browsing application that lets users search for films, view details, and explore movie data using an external API.",
       imgUrl: projImg22,
       link: "https://github.com/G3RGES/The-Movie-App",
       demo: "https://the-movie-app-phi.vercel.app/",
