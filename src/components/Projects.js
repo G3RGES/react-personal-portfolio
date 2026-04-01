@@ -23,6 +23,7 @@ import projImg19 from "../assets/img/eat-a-split.png";
 import projImg20 from "../assets/img/usepopcorn.png";
 import projImg21 from "../assets/img/travel-list.png";
 import projImg22 from "../assets/img/G3RGES_The-Movie-App.png";
+import projImg23 from "../assets/img/the-wild-oasis.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import { ProjectCard } from "./ProjectCard";
@@ -183,6 +184,14 @@ export const Projects = () => {
       imgUrl: projImg22,
       link: "https://github.com/G3RGES/The-Movie-App",
       demo: "https://the-movie-app-phi.vercel.app/",
+    },
+    {
+      title: "The Wild Oasis ",
+      description:
+        "A modern cabin booking website built with React and powered by Supabase, featuring cabin listings, reservation functionality, and a polished, responsive user experience.",
+      imgUrl: projImg23,
+      link: "https://github.com/G3RGES/the-wild-oasis-website",
+      demo: "https://the-wild-oasis-website-chi-lovat.vercel.app/",
     },
   ];
   return (
