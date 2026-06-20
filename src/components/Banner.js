@@ -46,38 +46,13 @@ export const Banner = () => {
       setDelta(500);
     }
   };
-  // const downloadCV = () => {
-  //  const fileId = "1QNKcE3IFtMbjqRCV75UNqt_eO3OHC0xM";
-  //   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-  //   const viewUrl =
-  //     "https://drive.google.com/file/d/1QNKcE3IFtMbjqRCV75UNqt_eO3OHC0xM/view?usp=sharing";
-  //   window.open(downloadUrl, "_blank");
-  // };
 
-  //   const downloadCV = () => {
-  //   const fileId = "1za2yEdr_qmeWjhfg3tZgiDR2LhvMk6-O";
-  //   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-  //   const viewUrl = `https://drive.google.com/file/d/${fileId}/view?usp=sharing`;
-  //   window.open(downloadUrl, "_blank");
-  // };
 
-  //   const downloadCV = () => {
-  //   const fileId = "1rsModad2hWB_L1EglSVigr3js5STyfSc";
-  //   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-  //   const viewUrl = `https://drive.google.com/file/d/${fileId}/view?usp=sharing`;
-  //   window.open(downloadUrl, "_blank");
-  // };
-
-  // const downloadCV = () => {
-  //   const fileId = "1Fjonq3pZTbCZkDMsH0v7WTZpcdpDpjdO";
-  //   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-  //   window.open(downloadUrl, "_blank");
-  // };
-
-  const downloadCV = () => {
-  const fileId = "1e2kxXEm3McKrrWy39J13R5FevYklg6Vb";
-  const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-  window.open(downloadUrl, "_blank");
+const downloadCV = () => {
+  window.open(
+    "https://drive.google.com/uc?export=download&id=16QW2uzCBMolxTtZMdeUcwsKJROe4gosK",
+    "_blank"
+  );
 };
 
 
