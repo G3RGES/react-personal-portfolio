@@ -49,10 +49,9 @@ export const Banner = () => {
 
 
 const downloadCV = () => {
-  window.open(
-    "https://drive.google.com/uc?export=download&id=16QW2uzCBMolxTtZMdeUcwsKJROe4gosK",
-    "_blank"
-  );
+  const fileId = "13c0TonN_aT5jTLb5e-ycPlw3jYypfq4c";
+  const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+  window.open(downloadUrl, "_blank");
 };
 
 
