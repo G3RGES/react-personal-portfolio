@@ -1,16 +1,19 @@
-
 .banner-buttons {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 20px;
 }
 
 .banner-buttons .download-cv-btn {
   background: transparent;
   color: #fff;
   border: 1px solid #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
   transition: 0.3s ease-in-out;
+  font-size: inherit;
+  line-height: 1.2;
 }
 
 .banner-buttons .download-cv-btn:hover {
